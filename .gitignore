@@ -1,4 +1,8 @@
-.DS_Store
+# Ignore all markdown files except README
+*.md
+!README.md
+
+
 /.idea
 /.vscode
 *.log
