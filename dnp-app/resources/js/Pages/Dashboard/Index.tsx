@@ -80,7 +80,7 @@ export default function Dashboard({ stats, recentJobs, role }: DashboardProps) {
                         <ShieldCheck size={24} />
                     </div>
                     <div>
-                        <div style={{ color: 'var(--color-text-muted)', fontSize: 13, marginBottom: 4 }}>Suket Expiring (< 90hr)</div>
+                        <div style={{ color: 'var(--color-text-muted)', fontSize: 13, marginBottom: 4 }}>Suket Expiring ({'<'} 90hr)</div>
                         <div style={{ color: 'var(--color-text)', fontSize: 24, fontWeight: 700 }}>{stats.suket_expiring_soon || 0}</div>
                     </div>
                 </div>
