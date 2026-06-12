@@ -1,0 +1,13 @@
+.DS_Store
+/.idea
+/.vscode
+*.log
+dnp-app/vendor/
+dnp-app/node_modules/
+dnp-app/.env
+dnp-app/public/build/
+dnp-app/storage/*.key
+dnp-app/storage/framework/cache/
+dnp-app/storage/framework/sessions/
+dnp-app/storage/framework/views/
+dnp-app/storage/logs/
